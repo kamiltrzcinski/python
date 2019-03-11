@@ -1,0 +1,5 @@
+name = input("podaj imie i nazwisko")
+tableName = name.split(" ")
+x= (tableName[0].__len__()).__str__()
+print(tableName[0] + " " + "długość imienia = " + x)
+print(tableName[1].lower())
